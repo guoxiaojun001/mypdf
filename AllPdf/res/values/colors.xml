@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_orange">#EC8561</color>
+    <color name="white">#FFFFFF</color>
+    <color name="nomal_bg">#EEEEEE</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FD721F</color>
+    <color name="light_gray">#eeeeee</color>
+    <color name="color_text_unClicked">#ee9977</color>
+    <color name="color_collect_unClicked">#626262</color>
+    <color name="brown_yellow">#F9B552</color>
+    <color name="brown">#AA3300</color>
+    <color name="gray">#E6E6E6</color>
+    <color name="red">#ff0000</color>
+    <color name="dark_gray">#898989</color>
+    <color name="black_alpha">#44000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_999999">#999999</color>
+    <color name="black_cccccc">#cccccc</color>
+    <color name="black_333333">#333333</color>
+    <color name="green">#90C320</color>
+    <color name="image_gray">#B3B3B3</color>
+    <color name="red_orange">#EA5413</color>
+    <color name="blue">#0099CC</color>
+    <color name="sky_blue">#16CE8E</color>
+    <color name="pink_red">#F26665</color>
+    <color name="collect_clicked">#35363A</color>
+    <color name="collect_normal">#45484D</color>
+    <color name="gold">#FFCCAA</color>
+    <color name="redwine">#B60C01</color>
+    
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    
+    
+    <drawable name="text_color">#4689CE</drawable>
+    <drawable name="text_gray">#8F8F8F</drawable>
+    
+</resources>

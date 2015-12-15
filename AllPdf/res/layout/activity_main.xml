@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/light_gray"
+    android:theme="@android:style/Theme.Light.NoTitleBar"
+    android:orientation="vertical" >
+	
+        <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_gray">
+        <ImageView 
+            android:id="@+id/activity_product_center_h5_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_back"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/black_333333"
+            android:text="产品详情"
+            android:layout_centerInParent="true"/>
+        <RelativeLayout 
+            android:id="@+id/activity_product_center_h5_share"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+	        <ImageView 
+	            android:layout_width="25dp"
+	            android:layout_height="25dp"
+	            android:layout_centerInParent="true"
+	            android:src="@drawable/ic_new_share"
+	            android:scaleType="centerInside"/>
+        </RelativeLayout>
+        <RelativeLayout 
+            android:id="@+id/activity_product_center_h5_collect"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/activity_product_center_h5_share">
+	        <ImageView 
+	            android:id="@+id/activity_product_center_h5_collect_image"
+	            android:layout_width="25dp"
+	            android:layout_height="25dp"
+	            android:layout_centerInParent="true"
+	            android:src="@drawable/ic_cellect_no"
+	            android:scaleType="centerInside"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/black_999999"/>
+
+    <com.joanzapata.pdfview.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
